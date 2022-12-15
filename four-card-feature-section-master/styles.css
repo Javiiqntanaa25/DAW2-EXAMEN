@@ -1,0 +1,99 @@
+html{
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+header{
+    text-align: center;
+    margin-top: 4rem;
+}
+p{
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.titulonormal{
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.titulonegrita{
+    margin-top: 10px;
+}
+h4{
+    font-weight: 200;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+main {
+    padding: 2rem;
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem; 
+    justify-content: space-between;
+} 
+.supervisor{
+    -webkit-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    border-radius: 5px;
+    border-top: 6px solid hsl(180, 62%, 55%) ;
+    height: 13rem;
+    max-width: 20rem;
+    padding: 1rem;
+}
+.tbuilder{
+    -webkit-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    border-radius: 5px;
+    border-top: 6px solid hsl(0, 78%, 62%) ;
+    height: 13rem;
+    max-width: 20rem;
+    padding: 1rem;
+}
+.karma{
+    -webkit-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    border-radius: 5px;
+    border-top: 6px solid hsl(34, 97%, 64%) ;
+    height: 13rem;
+    max-width: 20rem;
+    padding: 1rem;
+
+}
+.calculator{
+    -webkit-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    box-shadow: 0px 6px 32px 0px rgba(0,0,0,0.47);
+    border-radius: 5px;
+    border-top: 6px solid hsl(212, 86%, 64%) ;
+    height: 13rem;
+    max-width: 20rem;
+    padding: 1rem;
+}
+svg{
+    margin-right: 0;
+    margin-left: 15rem;
+}
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 375px) {
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 5rem;
+        margin-top: 5rem; 
+    }
+    
+
+}
+
+
